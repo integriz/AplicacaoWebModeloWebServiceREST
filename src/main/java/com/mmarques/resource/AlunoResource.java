@@ -1,4 +1,4 @@
-package com.mmarques.controller;
+package com.mmarques.resource;
 
 import com.mmarques.bo.Aluno;
 import com.mmarques.bo.Retorno;
@@ -16,7 +16,7 @@ import javax.ws.rs.core.MediaType;
 
 
 @Path("/alunos")
-public class AlunoControlle {
+public class AlunoResource {
     private static List<Aluno> alunos;
     
     static{
